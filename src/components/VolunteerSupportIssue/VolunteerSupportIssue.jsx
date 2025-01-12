@@ -20,7 +20,7 @@ const VolunteerSupportIssue = () => {
   }, []);
 
   const handleIssueClick = (issue) => {
-    navigate(`/contact-support-issue-two/${issue.id}`);
+    navigate(`/volunteer/contact-support-issue-two/${issue.id}`);
   };
 
   return (
